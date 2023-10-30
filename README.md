@@ -71,7 +71,7 @@ In this repository, we provide the source code for the proposed models and train
 
 # Pretrained Checkpoints
 
-Google drive link: https://drive.google.com/drive/folders/1I7gau7tfsneBlKDcCKQr5cVqp-cn9oKM?usp=sharing
+[Google drive link](https://drive.google.com/drive/folders/1I7gau7tfsneBlKDcCKQr5cVqp-cn9oKM?usp=sharing) (Available from October 31, 2023)
 
 # Acknowledgement
 
