@@ -6,7 +6,7 @@ In this repository, we provide the source code for the proposed models and train
 
 # Requirements
 
-- ## PyTorch
+- ### PyTorch
 
   Install PyTorch package compatible with your cuda version like:
 
@@ -14,7 +14,7 @@ In this repository, we provide the source code for the proposed models and train
   pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
   ```
 
-- ## CompressAI
+- ### CompressAI
 
   L-MSFC consists of FENet (Fusion and Encoding), DRNet (Decoding and Reconstruction), and shared entropy model.
 
@@ -29,7 +29,7 @@ In this repository, we provide the source code for the proposed models and train
   pip install compressai==1.1.5
   ```
 
-- ## Detectron2
+- ### Detectron2
 
   We used two pretrained feature extractors from Detectron2 as follows:
 
@@ -42,7 +42,7 @@ In this repository, we provide the source code for the proposed models and train
    python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
   ```
 
-- ## Other Dependencies
+- ### Other Dependencies
   ```
   pillow==9.5.0
   tensorboardX
@@ -51,11 +51,11 @@ In this repository, we provide the source code for the proposed models and train
 
 # Training
 
-- ## Dataset
+- ### Dataset
 
   We randomly sampled approximately 90k images from [OpenImagesV6 dataset](https://storage.googleapis.com/openimages/web/index.html) and used 100 of these images for validation.
 
-- ## Model
+- ### Model
 
   There are two models available: L-MSFC and L-MSFC (w/o CM), located in './src/model.py' and './src/model_no_ar.py', respectively.
 
@@ -63,7 +63,7 @@ In this repository, we provide the source code for the proposed models and train
 
   You can select the vision task (feature extractor) you wish to use from the options: ['detection', 'segmentation'].
 
-- ## Example
+- ### Example
   For example, run:
   ```
   CUDA_VISIBLE_DEVICES={gpu_id} python train.py --model model_no_ar --quality 3 --task detection --batch-size 1 --patch-size 0 --dataset ./data/ --savedir ./save/no_ar_det_q3 --logdir ./log/no_ar_det_q3
