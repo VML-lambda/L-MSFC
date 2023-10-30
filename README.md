@@ -1,6 +1,6 @@
 # Introduction
 
-Official PyTorch implementation for L-MSFC: [End-to-End Learnable Multi-Scale Feature Compression](https://ieeexplore.ieee.org/abstract/document/10210338), TCSVT 2023 (Early Access).
+Official PyTorch implementation for L-MSFC: [End-to-End Learnable Multi-Scale Feature Compression](https://ieeexplore.ieee.org/abstract/document/10210338), IEEE TCSVT 2023 (Early Access).
 
 In this repository, we provide the source code for the proposed models and training scripts, but not for evaluation scripts.
 
@@ -71,7 +71,8 @@ In this repository, we provide the source code for the proposed models and train
 
 # Pretrained Checkpoints
 
-### Comming Soon!
+### Coming Soon!
+Google drive link: https://drive.google.com/drive/folders/1I7gau7tfsneBlKDcCKQr5cVqp-cn9oKM?usp=sharing
 
 # Acknowledgement
 
