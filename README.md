@@ -84,13 +84,12 @@ If this work is useful for your research, please cite:
 ```
 @ARTICLE{10210338,
   author={Kim, Yeongwoong and Jeong, Hyewon and Yu, Janghyun and Kim, Younhee and Lee, Jooyoung and Jeong, Se Yoon and Kim, Hui Yong},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  title={End-to-End Learnable Multi-Scale Feature Compression for VCM},
-  year={2023},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TCSVT.2023.3302858},
-  ISSN={1558-2205},
-  month={},}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={End-to-End Learnable Multi-Scale Feature Compression for VCM}, 
+  year={2024},
+  volume={34},
+  number={5},
+  pages={3156-3167},
+  keywords={Feature extraction;Image coding;Task analysis;Transform coding;Decoding;Image reconstruction;Encoding;Video coding for machine (VCM);feature compression;learned image compression;versatile video coding (VVC)},
+  doi={10.1109/TCSVT.2023.3302858}}
 ```
